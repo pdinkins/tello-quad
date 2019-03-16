@@ -1,13 +1,6 @@
-__package__ = "tello-quad"
+__package__ = "tello-quad.research.main"
 __version__ = "0.1.20"
-
 import os
-import threading 
-import socket
-import sys
-import time
-import platform  
-
 
 def download_repos():
     # dji sdk tello python 
