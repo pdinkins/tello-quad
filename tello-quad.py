@@ -9,15 +9,7 @@ import time
 import platform  
 
 
-def recv():
-    count = 0
-    while True: 
-        try:
-            data, server = sock.recvfrom(1518)
-            print(data.decode(encoding="utf-8"))
-        except Exception:
-            print ('\nExit . . .\n')
-            break
+
 
 def download_repos():
     os.chdir("/downloads/")
@@ -56,9 +48,19 @@ if __name__ == "__main__":
     print ('Tello: command takeoff land flip forward back left right \r\n       up down cw ccw speed speed?\r\n')
     print ('end -- quit demo.\r\n')
 
+    def recv():
+        count = 0
+        while True: 
+            try:
+                data, server = sock.recvfrom(1518)
+                print(data.decode(encoding="utf-8"))
+            except Exception:
+                print ('\nExit . . .\n')
+                break
     #recvThread create
     recvThread = threading.Thread(target=recv)
     recvThread.start()
+
 
     while True: 
         try:
