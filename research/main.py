@@ -25,5 +25,9 @@ def gitclone(repo):
 def dr():
     download_repos()
 
+def return_package_details():
+    return (__package__ , __version__)
+
+
 if __name__ == "__main__":
-    dr()
+    return_package_details()

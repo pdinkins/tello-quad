@@ -2,6 +2,7 @@
 Ryze/DJI/Intel Tello quadcopter research and development.
 [Tello Drone](https://www.ryzerobotics.com/tello?utm_source=dji&utm_medium=store&utm_campaign=product_page)
 
+## RESEARCH
 #### Documentation
 - [User Manual](https://dl-cdn.ryzerobotics.com/downloads/Tello/20180404/Tello_User_Manual_V1.2_EN.pdf)
 - [Tello SDK](https://terra-1-g.djicdn.com/2d4dce68897a46b19fc717f3576b7c6a/Tello%20%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3/For%20Tello/Tello%20SDK%20Documentation%20EN_1.3_1122.pdf)
@@ -14,6 +15,12 @@ Ryze/DJI/Intel Tello quadcopter research and development.
 - [parakhm95/Ryze-Tello-Position-Controller](https://github.com/parakhm95/Ryze-Tello-Position-Controller)
 - [Jabrils/TelloTV](https://github.com/Jabrils/TelloTV)
 - [damiafuentes/DJITelloPy](https://github.com/damiafuentes/DJITelloPy)
+##### Download research libraries
+```console
+$ cd tello-quad/research/
+$ python3 main.py
+```
+Downloads all the research libraries with git into local directory. 
 
 #### Videos
 - [Jabrils - 🖥️ I Made an AI Drone That Tracks Any Face!](https://www.youtube.com/watch?v=esw88_gKOpA&feature=youtu.be)
@@ -25,3 +32,6 @@ Ryze/DJI/Intel Tello quadcopter research and development.
 - [CloudLove - TensorFlow - DJI Tello - Object Recognition](https://www.youtube.com/watch?v=qmhspfHoPQU)
 - [James Williams - Tello Drone - Python API Test ](https://www.youtube.com/watch?v=zFH_BkG6tBI)
 - [Meisech - Ryze Tello - Part 3 - Programming the Tello step by step](https://www.youtube.com/watch?v=usxynMuEqEA)
+
+
+## DEVELOPMENT
