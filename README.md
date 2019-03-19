@@ -27,6 +27,10 @@ $ git clone https://github.com/pdinkins/tello-quad.git
         - TelloTV is a rather simplistic approach to be able to launch your Tello drone & hav it track your face. This approach has been tested & proven to work with the DJI Tello Drone (Non - Educational Version I believe, but may still work with the educational version?)
 - [parakhm95/Ryze-Tello-Position-Controller](https://github.com/parakhm95/Ryze-Tello-Position-Controller)
         - This is a collection of python-based sample code that interact with the Ryze Tello drone.
+- [vjaunet/QUADCOPTER](https://github.com/vjaunet/QUADCOPTER)
+                - This project is the development of a code to control a quadcopter with a Raspberry Pi. The main idea is to use the RPI as much as possible. The only external devices needed are a MPU6050 for attitude measurment and a Wifi dongle. The quadcopter is remotely controlled via wifi and an Android App.
+- [vjaunet/QUADCOPTER_V2](https://github.com/vjaunet/QUADCOPTER_V2)
+                - Following the Quadcopter V1, I want to use a 4 cahnnel RC remote to have better control on the drone. In fact, the tablet shows quite poor sensitivity that is an handicap for good quality fligths. Therefore in theis version of the Quadcopter, the RPI will still hold the PID, but a micorcontroller is used to interface the RC receiver and the ESCs. The Rpi aks the microcontroller for RC commands and sends motor speed values through I2C. An Arduino Micro has been chosen as microcontroller, for its compact size and sufficient abilites for the job
 ### Download research libraries
 ```console
 $ cd tello-quad/research
